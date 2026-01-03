@@ -2,9 +2,10 @@ name: resume ci
 
 # On every push this script is executed
 on:
- push:
-  branches:
-   - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build:

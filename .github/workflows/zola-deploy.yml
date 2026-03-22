@@ -1,7 +1,7 @@
 name: resume ci
 
-permissions: 
-  contents: read
+permissions:
+  contents: write
   pages: write
   id-token: write
 

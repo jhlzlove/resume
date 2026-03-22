@@ -1,5 +1,10 @@
 name: resume ci
 
+permissions: 
+  contents: read
+  pages: write
+  id-token: write
+
 # On every push this script is executed
 on:
   push:
